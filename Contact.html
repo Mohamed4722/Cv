@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1>My details</h1>
+    <p>You can contact me by :</p>
+    <ul>
+      <li>mail : mido93170@hotmail.fr</li>
+      <li>phone : 07 63 45 67 24 (false number)</li>
+      <li>letter : 435 avenue de la Republique, Paris 75020, France (false adress)</li>
+    </ul>
+    <img src="https://s2.qwant.com/thumbr/0x380/d/9/e605ede33ecc36b75b2a40ea30b3ec1e4c871d316a7303236de80f7f17c261/un-carnet-d-adresses-215889.jpg?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fz%2Fun-carnet-d-adresses-215889.jpg&q=0&b=1&p=0&a=0" alt="contact">
+    <br><br>
+    <hr>
+    <form class="" action="index.html" method="post">
+    <!-- action va nous ramener à la page index, on peut mettre mailto pour ouvrir un mail apres avoir soumis le formulaire
+     le post va transmettre les infos de l'utilisateur dans le contenu du mail et dans la barre adresse mais il faut installer une appli de mail -->
+      <label> Your Name : </label>
+      <input type="text"> <br>
+      <!-- La commande input est importante et gère beaucoup de choses, il ya
+      beaucoup de choses que l'on peut faire (boutons, case à cocher, etc...) -->
+      <label>Do you want to subscribe to the list ?</label>
+      <input type="checkbox"> <br>
+      <label>Your favorité colour ?</label>
+      <input type="color"> <br>
+      <label> Your message </label>
+      <textarea name="name" rows="3" cols="30"></textarea>
+      <br>
+      <input type="submit" name="Envoyer">
+    </form>
+  </body>
+</html>
